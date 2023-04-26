@@ -57,7 +57,7 @@ int No_of_prime_till_n(int n){
     return count1; //including n
 }
 // printing all small prime factor given number using sieve of eratos
-void print_all_prime_factor(int n){
+void print_all_prime_factors(int n){
     vector<int>arr(n+1,1);
     for(int i=2;i<=n;i++){
         arr[i]=i;
@@ -100,7 +100,7 @@ int main()
     
     cout<<"smallest prime factor of "<<n<<" is:"<<smallPrimeFactor(n)<<endl;  //Sieve of eratos theorm
     cout<<"prime factor of "<<n<<" is:";
-    print_all_prime_factor(n);
+    print_all_prime_factors(n);
   
 
     return 0;
