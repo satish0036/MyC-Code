@@ -1,0 +1,1 @@
+printArr(arr,5);
